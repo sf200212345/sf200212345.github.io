@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
 
 const Projects = () => {
   return (
-    <div>Projects</div>
-  )
-}
+    <div className='section' id='projects'>
+      Projects
+    </div>
+  );
+};
 
-export default Projects
+export default Projects;

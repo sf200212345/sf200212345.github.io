@@ -3,6 +3,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
   }
   
   body {
@@ -12,4 +13,15 @@
     justify-content: center;
     font-family: sans-serif;
     background-color: #eadac5;
+  }
+
+  .section {
+    height: 100vh;
+    border: 1px solid black;
+    border-bottom: none;
+    width: 75vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }

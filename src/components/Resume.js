@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
 
 const Resume = () => {
   return (
-    <div>Resume</div>
-  )
-}
+    <div className='section' id="resume">
+      Resume
+    </div>
+  );
+};
 
-export default Resume
+export default Resume;
