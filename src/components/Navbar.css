@@ -35,6 +35,10 @@
     margin: 0 2em;
     border: none;
     text-align: center;
+  }
+
+  .nav-item:hover {
+    border-bottom: 5px solid white;
     cursor: pointer;
   }
 
