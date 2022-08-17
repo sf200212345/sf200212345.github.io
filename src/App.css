@@ -1,5 +1,5 @@
 /*app-wide*/
-* {
+  * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -20,8 +20,33 @@
     border: 1px solid black;
     border-bottom: none;
     width: 75vw;
+  }
+
+/*Introduction*/
+
+  #introduction {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+  }
+
+  .pp, .bio {
+    display: inline-block;
+    margin: 0 1%;
+  }
+
+  .pp {
+    overflow: hidden;
+    border-radius: 50%;
+    width: max(25%, 225px);
+    height: 40%;
+    border: 1px solid black;
+  }
+
+  .pp img {
+    width: 100%;
+  }
+
+  .bio {
+    max-width: 40%;
   }

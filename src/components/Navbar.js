@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import "./Navbar.css";
+import "./styles/Navbar.css";
 
 const Navbar = () => {
 
