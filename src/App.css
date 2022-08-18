@@ -7,12 +7,17 @@
   }
   
   body {
+    font-family: sans-serif;
+    background-color: #eadac5;
+    overflow-x: hidden;
+  }
+
+  .content {
+    width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-family: sans-serif;
-    background-color: #eadac5;
   }
 
   .section {
@@ -22,9 +27,8 @@
     width: 75vw;
   }
 
-/*Introduction*/
-
-  #introduction {
+/*About*/
+  #about {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -49,4 +53,41 @@
 
   .bio {
     max-width: 40%;
+  }
+
+  /*Footer*/
+  #contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    text-align: center;
+    background-color: aqua;
+    width: 100vw;
+    left: 0;
+    right: 0;
+    padding: 1vh 0;
+  }
+
+  .footer-section {
+    margin: 5px 0;
+  }
+
+  #contact a {
+    color: black;
+    text-decoration: none;
+  }
+
+  #contact a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+
+  #contact p {
+    margin: 5px 0;
+  }
+
+  .socials a {
+    margin: 0 10px;
   }

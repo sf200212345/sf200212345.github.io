@@ -26,9 +26,10 @@ const Navbar = () => {
   return (
     <div className={isScrollDown ? "hidden navbar-container" : "navbar-container"}>
       <header className="navbar">
-        <div className={scrollPosition <= window.innerHeight * 0.60 ? Focused : notFocused} onClick={() => document.getElementById("introduction").scrollIntoView()}>Introduction</div>
+        <div className={scrollPosition <= window.innerHeight * 0.60 ? Focused : notFocused} onClick={() => document.getElementById("about").scrollIntoView()}>About</div>
         <div className={scrollPosition > window.innerHeight * 0.60 && scrollPosition <= window.innerHeight * 1.60 ? Focused : notFocused} onClick={() => document.getElementById("resume").scrollIntoView()}>Resume</div>
-        <div className={scrollPosition > window.innerHeight * 1.60 ? Focused : notFocused} onClick={() => document.getElementById("projects").scrollIntoView()}>Projects</div>
+        <div className={scrollPosition > window.innerHeight * 1.60 && scrollPosition <= window.innerHeight * 2.10 ? Focused : notFocused} onClick={() => document.getElementById("projects").scrollIntoView()}>Projects</div>
+        <div className={scrollPosition > window.innerHeight * 2.10 ? Focused : notFocused} onClick={() => document.getElementById("contact").scrollIntoView()}>Contact</div>
       </header>
     </div>
   );

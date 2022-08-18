@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Introduction = () => {
+const About = () => {
   return (
-    <div className='section' id='introduction'>
+    <div className='section' id='about'>
       <div className='pp'>
         <img src={require('../images/headshot.jpg')} alt='headshot.jpg' />
       </div>
@@ -13,4 +13,4 @@ const Introduction = () => {
   );
 };
 
-export default Introduction;
+export default About;
