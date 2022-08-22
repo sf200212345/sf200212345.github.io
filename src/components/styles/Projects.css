@@ -1,0 +1,41 @@
+/*Projects*/
+    #projects {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+/*ProjectsPopup*/
+    .thumbnail {
+        height: 20vw;
+        width: 20vw;
+        display: inline-block;
+        margin: -10% 1%;
+        cursor: pointer;
+    }    
+
+    .thumbnail img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .popup-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        z-index: 999;
+        background-color: rgba(0,0,0,0.75);
+    }
+
+    .popup {
+        height: 75vh;
+        width: 50vw;
+        background-color: white;
+        z-index: 1001;
+    }

@@ -1,14 +1,80 @@
 [
     {
-        "id" : 1,
-        "title": "one"
+        "for": "Personal",
+        "title": "Expenses App",
+        "date": "July 2022 - August 2022",
+        "builtWith": "ReactJS, React Context API, HTML, CSS",
+        "links": [
+            "github",
+            "whatever"
+        ],
+        "thumbnail": "./images/image.jpg",
+        "mainImage": "./images/image.jpg",
+        "desc": "blahblahblahblah"
     },
     {
-        "id" : 2,
-        "title": "two"
+        "for": "EECS 497",
+        "title": "Aglets Messaging",
+        "date": "May 2022 - June 2022",
+        "builtWith": "VueJS, HTML, CSS",
+        "links": [
+            "github",
+            "whatever"
+        ],
+        "thumbnail": "./images/image.jpg",
+        "mainImage": "./images/image.jpg",
+        "desc": "blahjblahagelets"
     },
     {
-        "id" : 3,
-        "title": "three"
+        "for": "Professor Eugina Leung",
+        "title": "Autonomous Driving Experiment App",
+        "date": "June 2022 - July 2022",
+        "builtWith": "Python, PyQt",
+        "links": [
+            "github",
+            "whatever"
+        ],
+        "thumbnail": "./images/image.jpg",
+        "mainImage": "./images/image.jpg",
+        "desc": "pythonboiiii"
+    },
+    {
+        "for": "Personal",
+        "title": "Personal Website",
+        "date": "July 2022 - August 2022",
+        "builtWith": "ReactJS, HTML, CSS",
+        "links": [
+            "github",
+            "whatever"
+        ],
+        "thumbnail": "./images/image.jpg",
+        "mainImage": "./images/image.jpg",
+        "desc": "dis is ma website"
+    },
+    {
+        "for": "Michigan Data Science Team",
+        "title": "Movie Recommendation System",
+        "date": "February 2022 - April 2022",
+        "builtWith": "Python, numpy, pandas",
+        "links": [
+            "github",
+            "whatever"
+        ],
+        "thumbnail": "./images/image.jpg",
+        "mainImage": "./images/image.jpg",
+        "desc": "movies!"
+    },
+    {
+        "for": "Michigan Data Science Team",
+        "title": "Climate Change Data Visualizations",
+        "date": "October 2021 - December 2021",
+        "builtWith": "Python, pandas, matplotlib, Tableau",
+        "links": [
+            "github",
+            "whatever"
+        ],
+        "thumbnail": "./images/image.jpg",
+        "mainImage": "./images/image.jpg",
+        "desc": "Data visualizations"
     }
 ]
