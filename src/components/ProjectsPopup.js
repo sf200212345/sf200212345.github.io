@@ -17,7 +17,6 @@ const ProjectsPopup = ({ info }) => {
                         {info.title}-{info.for}{info.date}
                     </div>
                 </OutsideClickHandler>
-                <div className='dark-background'></div>
             </div>)
             : (<></>)
         }

@@ -1,5 +1,5 @@
 import React from 'react';
-
+//all contact info
 const Footer = () => {
   return (
     <div id='contact'>

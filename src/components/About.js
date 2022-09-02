@@ -1,5 +1,7 @@
 import React from 'react';
-
+/*
+  personal bio, profile picture, languages/technologies I know
+*/
 const About = () => {
   return (
     <div className='section' id='about'>
@@ -7,7 +9,7 @@ const About = () => {
         <img src={require('../images/headshot.jpg')} alt='headshot.jpg' />
       </div>
       <div className='bio'>
-        Adaptable rising Junior working on a B.S. in Computer Science and seeking to engage with meaningful projects in a Summer 2022 internship. Inquisitive, hard-working, and familiar with working in project teams. Comfortable working both virtually and in-person.
+      I am a third-year at University of Michigan studying Computer Science as an undergrad with plans to graduate this academic year. Currently, I am also applying to the Sequential Undergraduate/Graduate Studies (SUGS) program at University of Michigan, which will allow me to continue studying Computer Science here as a grad student. I am interested in Web Development, Data Science and Software Development and am very excited to explore opportunities in these areas.
       </div>
     </div>
   );

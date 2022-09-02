@@ -1,18 +1,17 @@
 /*Projects*/
-    #projects {
+    .projects-wrapper {
         display: flex;
-        justify-content: center;
-        align-items: center;
         flex-wrap: wrap;
+        width: 90%;
+        margin: calc((98vh - 42vw) / 2) auto;
     }
 
 /*ProjectsPopup*/
     .thumbnail {
         height: 20vw;
         width: 20vw;
-        display: inline-block;
-        margin: -10% 1%;
         cursor: pointer;
+        margin: 1vw 1vw;
     }    
 
     .thumbnail img {
@@ -31,6 +30,7 @@
         height: 100vh;
         z-index: 999;
         background-color: rgba(0,0,0,0.75);
+        animation: fadeIn 0.25s;
     }
 
     .popup {
@@ -38,4 +38,9 @@
         width: 50vw;
         background-color: white;
         z-index: 1001;
+    }
+
+    @keyframes fadeIn {
+        0% {opacity: 0;}
+        100% {opacity: 1;}
     }

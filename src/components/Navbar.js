@@ -1,6 +1,8 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import "./styles/Navbar.css";
 
+//change for mobile view into the expandable menu?
+
 const Navbar = () => {
 
   const notFocused = "nav-item";
