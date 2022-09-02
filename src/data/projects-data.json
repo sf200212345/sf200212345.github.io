@@ -5,12 +5,18 @@
         "date": "July 2022 - August 2022",
         "builtWith": "ReactJS, React Context API, HTML, CSS",
         "links": [
-            "github",
-            "whatever"
+            {
+                "class": "fa-brands fa-github",
+                "link": "https://github.com/sf200212345/expenses-app"
+            },
+            {
+                "class": "fa-solid fa-arrow-up-right-from-square",
+                "link": "https://sf200212345.github.io/expenses-app"
+            }
         ],
-        "thumbnail": "./images/image.jpg",
+        "thumbnail": "./images/image.jpg", 
         "mainImage": "./images/image.jpg",
-        "desc": "blahblahblahblah"
+        "desc": "Built a responsive web app to track finances with ReactJS. Used React's Context API to pass down state. Implemented extra sorting and suggestion features to aid user in tracking finances. Working on adding a backend."
     },
     {
         "for": "EECS 497",
@@ -18,8 +24,14 @@
         "date": "May 2022 - June 2022",
         "builtWith": "VueJS, HTML, CSS",
         "links": [
-            "github",
-            "whatever"
+            {
+                "class": "fa-brands fa-github",
+                "link": "https://github.com/sf200212345/expenses-app"
+            },
+            {
+                "class": "fa-solid fa-arrow-up-right-from-square",
+                "link": "https://github.com/sf200212345/expenses-app"
+            }
         ],
         "thumbnail": "./images/image.jpg",
         "mainImage": "./images/image.jpg",
@@ -31,8 +43,14 @@
         "date": "June 2022 - July 2022",
         "builtWith": "Python, PyQt",
         "links": [
-            "github",
-            "whatever"
+            {
+                "class": "fa-brands fa-github",
+                "link": "https://github.com/sf200212345/expenses-app"
+            },
+            {
+                "class": "fa-solid fa-arrow-up-right-from-square",
+                "link": "https://github.com/sf200212345/expenses-app"
+            }
         ],
         "thumbnail": "./images/image.jpg",
         "mainImage": "./images/image.jpg",
@@ -44,8 +62,14 @@
         "date": "July 2022 - August 2022",
         "builtWith": "ReactJS, HTML, CSS",
         "links": [
-            "github",
-            "whatever"
+            {
+                "class": "fa-brands fa-github",
+                "link": "https://github.com/sf200212345/expenses-app"
+            },
+            {
+                "class": "fa-solid fa-arrow-up-right-from-square",
+                "link": "https://github.com/sf200212345/expenses-app"
+            }
         ],
         "thumbnail": "./images/image.jpg",
         "mainImage": "./images/image.jpg",
@@ -57,8 +81,14 @@
         "date": "February 2022 - April 2022",
         "builtWith": "Python, numpy, pandas",
         "links": [
-            "github",
-            "whatever"
+            {
+                "class": "fa-brands fa-github",
+                "link": "https://github.com/sf200212345/expenses-app"
+            },
+            {
+                "class": "fa-solid fa-arrow-up-right-from-square",
+                "link": "https://github.com/sf200212345/expenses-app"
+            }
         ],
         "thumbnail": "./images/image.jpg",
         "mainImage": "./images/image.jpg",
@@ -70,8 +100,14 @@
         "date": "October 2021 - December 2021",
         "builtWith": "Python, pandas, matplotlib, Tableau",
         "links": [
-            "github",
-            "whatever"
+            {
+                "class": "fa-brands fa-github",
+                "link": "https://github.com/sf200212345/expenses-app"
+            },
+            {
+                "class": "fa-solid fa-arrow-up-right-from-square",
+                "link": "https://github.com/sf200212345/expenses-app"
+            }
         ],
         "thumbnail": "./images/image.jpg",
         "mainImage": "./images/image.jpg",

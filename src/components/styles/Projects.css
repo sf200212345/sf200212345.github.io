@@ -38,9 +38,44 @@
         width: 50vw;
         background-color: white;
         z-index: 1001;
+        position: relative;
     }
 
     @keyframes fadeIn {
         0% {opacity: 0;}
         100% {opacity: 1;}
+    }
+
+    .img-container img {
+        width: 100%;
+    }
+
+    .img-container {
+        height: 70%;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .exit-btn {
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 2000;
+        border: none;
+        background-color: transparent;
+        padding: 0.5em 0.75em;
+        cursor: pointer;
+    }
+
+    .exit-btn:active, .exit-btn:hover {
+        background-color: red;
+        color: white;
+    }
+
+    .popup h3 {
+        display: inline-block;
+    }
+
+    .date {
+        float: right;
     }
