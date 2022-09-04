@@ -3,11 +3,17 @@ import OutsideClickHandler from 'react-outside-click-handler';
 
 const ProjectsPopup = ({ info }) => {
     const [isClicked, setClicked] = useState(false);
+    const [isHovered, setHovered] = useState(false);
 
   return (
     <div>
-        <div className='thumbnail' onClick={() => setClicked(true)}>
+        <div className='thumbnail' onClick={() => setClicked(true)} onMouseOver={() => setHovered(true)} onMouseOut={() => setHovered(false)}>
             <img src={require('../images/headshot.jpg')} alt='headshot.jpg' />
+            { isHovered ? (<div className='dark-hover'>
+                <h4>{info.title}</h4>
+                <span>{info.for}</span>
+                <span>Click to learn more!</span>
+            </div>) : (<></>) }
         </div>
         { isClicked ? 
             (<div className='popup-wrapper'>
@@ -21,7 +27,7 @@ const ProjectsPopup = ({ info }) => {
                             <p className='desc'>{info.desc}</p>
                             <span className='builtWith'>{info.builtWith}</span>
                             <div className='icon-links'>
-                                {info.links.map(curr => (<a key={curr.link} href={curr.link} target="_blank" rel="noopener noreferrer"><i className={curr.class}></i></a>))}
+                                {info.links.map(curr => (<a key={curr.id} href={curr.link} target="_blank" rel="noopener noreferrer"><i className={curr.class}></i></a>))}
                             </div>
                         </div>
                     </div>
