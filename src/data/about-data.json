@@ -1,26 +1,20 @@
 [
     {
-        "id": 0,
         "image": "c++.jpg"
     },
     {
-        "id": 1,
         "image": "python.jpg"
     },
     {
-        "id": 2,
         "image": "oraclesql.jpg"
     },
     {
-        "id": 3,
         "image": "mongodb.jpg"
     },
     {
-        "id": 4,
         "image": "javascript.jpg"
     },
     {
-        "id": 5,
         "image": "react.jpg"
     }
 ]

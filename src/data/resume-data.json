@@ -1,0 +1,63 @@
+{
+    "work": [
+        {
+            "id": "MNA",
+            "for": "Marelli North American, Inc.",
+            "position": "ICT Co-Op Student",
+            "date": "August 2022 - Present",
+            "location": "Southfield, MI",
+            "desc": "Standardize monitoring systems for factories and integrate incident responses. Migrate host information from deprecated system to current system using API calls. Leverage Python to run troubleshooting scripts on monitored equipment. Maintain ticketing system and visualize tickets for end-users."
+        },
+        {
+            "id": "MC",
+            "for": "Marelli China, Inc.",
+            "position": "Intern",
+            "date": "June 2022 - August 2022",
+            "location": "Remote",
+            "desc": "Standardize monitoring systems for factories and integrate incident responses. Migrate host information from deprecated system to current system using API calls. Leverage Python to run troubleshooting scripts on monitored equipment. Maintain ticketing system and visualize tickets for end-users."
+        },
+        {
+            "id": "PEL",
+            "for": "Professor Eugina Leung",
+            "position": "Programming Assistant",
+            "date": "June 2022 - July 2022",
+            "location": "Remote",
+            "desc": "Standardize monitoring systems for factories and integrate incident responses. Migrate host information from deprecated system to current system using API calls. Leverage Python to run troubleshooting scripts on monitored equipment. Maintain ticketing system and visualize tickets for end-users."
+        },
+        {
+            "id": "NA",
+            "for": "Nexteer Automotive",
+            "position": "Intern",
+            "date": "April 2020 - May 2020",
+            "location": "Suzhou, China",
+            "desc": "Standardize monitoring systems for factories and integrate incident responses. Migrate host information from deprecated system to current system using API calls. Leverage Python to run troubleshooting scripts on monitored equipment. Maintain ticketing system and visualize tickets for end-users."
+        }
+    ],
+    "education": [
+        {
+            "id": "MS",
+            "school": "University of Michigan",
+            "degree": "(Anticipated) Master of Science in Computer Science",
+            "date": "August 2023 - April 2024",
+            "location": "Ann Arbor, MI"
+        },
+        {
+            "id": "BS",
+            "school": "University of Michigan",
+            "degree": "Bachelor of Science in Computer Science",
+            "date": "August 2020 - April 2023",
+            "location": "Ann Arbor, MI",
+            "desc": "Notable Coursework: Human-Centered Software (EECS497), Web Systems (EECS485), Database Management Systems (EECS484), Computer Vision (EECS442), Foundations of Computer Science (EECS376), Introduction to Computer Organization (EECS370), Data Structures and Algorithms (EECS281), Programming and Introductory Data Structures (EECS280), Linear Algebra (MATH214), Introduction to Probability and Statistics (STATS 412)",
+            "gpa": "3.848/4.000"
+        },
+        {
+            "id": "HS",
+            "school": "Shanghai American School, Puxi Campus",
+            "degree": "High School Diploma",
+            "date": "August 2016 - May 2020",
+            "location": "Shanghai, China",
+            "desc": "Notable Coursework: IB Diploma (Higher Level courses in Physics, Chemistry and Economics), IB Bilingual Diploma, Innovation Institute (Project-Based Learning Curriculum)",
+            "gpa": "3.82/4.00"
+        }
+    ]
+}

@@ -7,6 +7,8 @@ import ProjectsPopup from './ProjectsPopup';
 const Projects = () => {
   return (
     <div className='section' id='projects'>
+      <h3>Projects</h3>
+      <h1>Check out what I've made.</h1>
       <div className='projects-wrapper'>{projData.map((curr) => (<ProjectsPopup key={curr.id} info={curr} />))}</div>
     </div>
   );

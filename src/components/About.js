@@ -7,6 +7,8 @@ import aboutData from "../data/about-data.json";
 const About = () => {
   return (
     <div className='section' id='about'>
+      <h3>About</h3>
+      <h1>Hi! I'm Steve Fan. Let me tell you about myself:</h1>
       <div className='pic-bio'>
         <div className='pp'>
           <img src={require('../images/headshot.jpg')} alt='headshot.jpg' />
@@ -17,9 +19,9 @@ const About = () => {
       </div>
       <div className='languages'>
         <span>I am familar with these languages:</span>
-        <div>{ aboutData.map(curr => (<img src={require('../images/headshot.jpg')} alt='headshot.jpg' />)) }</div>
+        <div>{ aboutData.map(curr => (<img key={curr.image} src={require('../images/headshot.jpg')} alt='headshot.jpg' />)) }</div>
       </div>
-      <a href='https://sf200212345.github.io/resume.pdf'>Click to see resume as PDF</a>
+      <a href='https://sf200212345.github.io/resume.pdf' target="_blank" rel="noopener noreferrer">Click to see resume as PDF</a>
     </div>
   );
 };
