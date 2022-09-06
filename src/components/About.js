@@ -8,7 +8,7 @@ const About = () => {
   return (
     <div className='section' id='about'>
       <h3>About</h3>
-      <h1>Hi! I'm Steve Fan. Let me tell you about myself:</h1>
+      <h1>Hi! I'm Steve Fan. Let me introduce myself.</h1>
       <div className='pic-bio'>
         <div className='pp'>
           <img src={require('../images/headshot.jpg')} alt='headshot.jpg' />

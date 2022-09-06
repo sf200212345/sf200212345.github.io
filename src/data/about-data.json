@@ -1,20 +1,20 @@
 [
     {
-        "image": "c++.jpg"
+        "image": "c++.png"
     },
     {
-        "image": "python.jpg"
+        "image": "python.png"
     },
     {
-        "image": "oraclesql.jpg"
+        "image": "oraclesql.png"
     },
     {
-        "image": "mongodb.jpg"
+        "image": "mongodb.png"
     },
     {
-        "image": "javascript.jpg"
+        "image": "javascript.png"
     },
     {
-        "image": "react.jpg"
+        "image": "react.png"
     }
 ]

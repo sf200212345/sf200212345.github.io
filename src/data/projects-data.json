@@ -17,8 +17,8 @@
                 "id": 1
             }
         ],
-        "thumbnail": "./images/image.jpg", 
-        "mainImage": "./images/image.jpg",
+        "thumbnail": "expenses-app.jpg", 
+        "mainImage": "expenses-app.jpg",
         "desc": "Built a responsive web app to track finances with ReactJS. Used React's Context API to pass down state. Implemented extra sorting and suggestion features to aid user in tracking finances. Working on adding a backend."
     },
     {
@@ -29,19 +29,19 @@
         "builtWith": "VueJS, HTML, CSS",
         "links": [
             {
-                "class": "fa-brands fa-github",
-                "link": "https://github.com/sf200212345/expenses-app",
+                "class": "fa-brands fa-square-gitlab",
+                "link": "https://gitlab.eecs.umich.edu/samcw/aglets",
                 "id": 2
             },
             {
                 "class": "fa-solid fa-arrow-up-right-from-square",
-                "link": "https://github.com/sf200212345/expenses-app",
+                "link": "https://samwallace.xyz/aglets/welcome.html",
                 "id": 3
             }
         ],
-        "thumbnail": "./images/image.jpg",
-        "mainImage": "./images/image.jpg",
-        "desc": "blahjblahagelets"
+        "thumbnail": "aglets-logo.png",
+        "mainImage": "aglets-app.jpg",
+        "desc": "Underwent Agile development cycle to create a website that aggregated messages from major messaging platforms. Implemented search functionality for platforms. Designed the HTML skeleton for each page and used CSS to make them responsive."
     },
     {
         "for": "Professor Eugina Leung",
@@ -52,39 +52,34 @@
         "links": [
             {
                 "class": "fa-brands fa-github",
-                "link": "https://github.com/sf200212345/expenses-app",
+                "link": "https://github.com/sf200212345/drivingTestProgram",
                 "id": 4
-            },
-            {
-                "class": "fa-solid fa-arrow-up-right-from-square",
-                "link": "https://github.com/sf200212345/expenses-app",
-                "id": 5
             }
         ],
-        "thumbnail": "./images/image.jpg",
-        "mainImage": "./images/image.jpg",
-        "desc": "pythonboiiii"
+        "thumbnail": "driving-app.jpg",
+        "mainImage": "driving-app.jpg",
+        "desc": "Developed Python GUI app for Professor Leung's simulated autonomous driving experiment using PyQt. Transformed Professor Leung's requirements into a programming specification. Packaged app with PyInstaller for easy distribution to lab computers."
     },
     {
         "for": "Personal",
         "id": "PW",
         "title": "Personal Website",
-        "date": "July 2022 - August 2022",
+        "date": "August 2022 - September 2022",
         "builtWith": "ReactJS, HTML, CSS",
         "links": [
             {
                 "class": "fa-brands fa-github",
-                "link": "https://github.com/sf200212345/expenses-app",
+                "link": "https://github.com/sf200212345/sf200212345.github.io",
                 "id": 6
             },
             {
                 "class": "fa-solid fa-arrow-up-right-from-square",
-                "link": "https://github.com/sf200212345/expenses-app",
+                "link": "https://sf200212345.github.io",
                 "id": 7
             }
         ],
-        "thumbnail": "./images/image.jpg",
-        "mainImage": "./images/image.jpg",
+        "thumbnail": "headshot.jpg",
+        "mainImage": "headshot.jpg",
         "desc": "dis is ma website"
     },
     {
@@ -96,18 +91,13 @@
         "links": [
             {
                 "class": "fa-brands fa-github",
-                "link": "https://github.com/sf200212345/expenses-app",
+                "link": "https://github.com/MichiganDataScienceTeam/movie-recommendations",
                 "id": 8
-            },
-            {
-                "class": "fa-solid fa-arrow-up-right-from-square",
-                "link": "https://github.com/sf200212345/expenses-app",
-                "id": 9
             }
         ],
-        "thumbnail": "./images/image.jpg",
-        "mainImage": "./images/image.jpg",
-        "desc": "movies!"
+        "thumbnail": "movie-logo.jpg",
+        "mainImage": "movie-recs.jpg",
+        "desc": "Conducted exploratory data analysis on a movie ratings dataset and created a utility matrix. Implemented matrix factorization (Asymmetric SVG) algorithm using the utility matrix to generate recommendations. Fine-tuned model with extra data from IMDB to increase accuracy."
     },
     {
         "for": "Michigan Data Science Team",
@@ -117,18 +107,13 @@
         "builtWith": "Python, pandas, matplotlib, Tableau",
         "links": [
             {
-                "class": "fa-brands fa-github",
-                "link": "https://github.com/sf200212345/expenses-app",
-                "id": 10
-            },
-            {
                 "class": "fa-solid fa-arrow-up-right-from-square",
-                "link": "https://github.com/sf200212345/expenses-app",
+                "link": "https://public.tableau.com/app/profile/ulysses3300/viz/OFFICIAL_16374360687430/MainDash",
                 "id": 11
             }
         ],
-        "thumbnail": "./images/image.jpg",
-        "mainImage": "./images/image.jpg",
-        "desc": "Data visualizations"
+        "thumbnail": "climate-change.jpg",
+        "mainImage": "climate-change.jpg",
+        "desc": "Applied pandas and matplotlib from Python to view, join and clean datasets found online. Utilized Tableau to visualize relationships and create interactive deliverables"
     }
 ]

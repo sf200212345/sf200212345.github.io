@@ -14,7 +14,7 @@
             "position": "Intern",
             "date": "June 2022 - August 2022",
             "location": "Remote",
-            "desc": "Standardize monitoring systems for factories and integrate incident responses. Migrate host information from deprecated system to current system using API calls. Leverage Python to run troubleshooting scripts on monitored equipment. Maintain ticketing system and visualize tickets for end-users."
+            "desc": "Using Automation Anywhere for Robotic Process Automation (RPA): developed a web crawler to acquire news about the company for internal monthly debriefs and automated repetitive and tedious office tasks."
         },
         {
             "id": "PEL",
@@ -22,7 +22,7 @@
             "position": "Programming Assistant",
             "date": "June 2022 - July 2022",
             "location": "Remote",
-            "desc": "Standardize monitoring systems for factories and integrate incident responses. Migrate host information from deprecated system to current system using API calls. Leverage Python to run troubleshooting scripts on monitored equipment. Maintain ticketing system and visualize tickets for end-users."
+            "desc": "Developed Python GUI app for Professor Leung's simulated autonomous driving experiment using PyQt. Transformed Professor Leung's requirements into a programming specification. Packaged app with PyInstaller for easy distribution to lab computers."
         },
         {
             "id": "NA",
@@ -30,7 +30,7 @@
             "position": "Intern",
             "date": "April 2020 - May 2020",
             "location": "Suzhou, China",
-            "desc": "Standardize monitoring systems for factories and integrate incident responses. Migrate host information from deprecated system to current system using API calls. Leverage Python to run troubleshooting scripts on monitored equipment. Maintain ticketing system and visualize tickets for end-users."
+            "desc": "Supported validation engineers and technicians by setting up equipment for testing procedures. Provided debugging assistance to the electronics division by changing equipment components. Unpacked and organized raw testing materials to expedite testing procedures."
         }
     ],
     "education": [
