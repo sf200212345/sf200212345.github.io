@@ -1,14 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.bd279ce7.css",
-    "main.js": "/static/js/main.a910c1f2.js",
+    "main.css": "/static/css/main.be9448cd.css",
+    "main.js": "/static/js/main.1827154e.js",
     "static/media/headshot.jpg": "/static/media/headshot.7028990ea9ee5fc48afc.jpg",
+    "static/media/movie-logo.jpg": "/static/media/movie-logo.37254a559e0f3c6ff26f.jpg",
+    "static/media/movie-recs.jpg": "/static/media/movie-recs.8fb9be2890cf4b90832a.jpg",
+    "static/media/climate-change.jpg": "/static/media/climate-change.884fe28fa7f67fa42cda.jpg",
+    "static/media/driving-app.jpg": "/static/media/driving-app.dc55f49c4d8deaf3a3e9.jpg",
+    "static/media/react.png": "/static/media/react.8a6fc0a24a800d1e0f4a.png",
+    "static/media/aglets-app.jpg": "/static/media/aglets-app.45a8138d79d39819a991.jpg",
+    "static/media/expenses-app.jpg": "/static/media/expenses-app.b6362d3d652cfadfe2f8.jpg",
+    "static/media/c++.png": "/static/media/c++.d8d9a2f879d60721c1ac.png",
+    "static/media/python.png": "/static/media/python.64d124c8ed51aa867899.png",
+    "static/media/mongodb.png": "/static/media/mongodb.eef6a2e619d682d175bf.png",
+    "static/media/oraclesql.png": "/static/media/oraclesql.f2ea1ab2f68d2c0e081e.png",
+    "static/media/aglets-logo.png": "/static/media/aglets-logo.caa096bc45fe03ba830d.png",
+    "static/media/javascript.png": "/static/media/javascript.266bd9fb2663dcc057b4.png",
     "index.html": "/index.html",
-    "main.bd279ce7.css.map": "/static/css/main.bd279ce7.css.map",
-    "main.a910c1f2.js.map": "/static/js/main.a910c1f2.js.map"
+    "main.be9448cd.css.map": "/static/css/main.be9448cd.css.map",
+    "main.1827154e.js.map": "/static/js/main.1827154e.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd279ce7.css",
-    "static/js/main.a910c1f2.js"
+    "static/css/main.be9448cd.css",
+    "static/js/main.1827154e.js"
   ]
 }
