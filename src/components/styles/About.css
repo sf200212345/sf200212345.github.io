@@ -28,7 +28,7 @@
     border-radius: 50%;
     width: max(25%, 225px);
     height: 75%;
-    border: 1px solid black;
+    border: 1px solid var(--text);
 }
 
 .pp img {
@@ -42,16 +42,16 @@
 .languages img {
     margin: 0 1vw;
     height: 10vh;
-    width: 10vh;
 }
 
 #about a {
-    background-color: white;
+    background-color: var(--onBackground);
     padding: 1vh;
     text-decoration: none;
 }
 
 #about a:hover {
-    background-color: blue;
+    background-color: var(--onHover);
+    color: var(--background);
     text-decoration: none;
 }

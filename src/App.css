@@ -9,7 +9,7 @@
   
   body {
     font-family: sans-serif;
-    background-color: #eadac5;
+    background-color: var(--background);
     overflow-x: hidden;
   }
 
@@ -23,9 +23,24 @@
 
   .section {
     height: 100vh;
-    border: 1px solid black;
+    border: 1px solid var(--text);
     border-bottom: none;
     width: 75vw;
+  }
+
+  .italic {
+    font-style: italic;
+  }
+
+  :root {
+    --background: #FEFAE0;
+    --onBackground: #DDA15E;
+    --onHover: #BC6C25;
+    --text: #283618;
+  }
+
+  span, h1, h2, h3, h4, h5, h6, p, span, a, div {
+    color: var(--text);
   }
 
   /*Footer*/
@@ -36,7 +51,7 @@
     align-items: center;
     overflow: hidden;
     text-align: center;
-    background-color: aqua;
+    background-color: var(--onBackground);
     width: 100vw;
     left: 0;
     right: 0;
@@ -48,12 +63,11 @@
   }
 
   #contact a {
-    color: black;
     text-decoration: none;
   }
 
   #contact a:hover {
-    color: white;
+    color: var(--background) !important;
     text-decoration: underline;
   }
 

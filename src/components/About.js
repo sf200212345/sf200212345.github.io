@@ -19,7 +19,7 @@ const About = () => {
       </div>
       <div className='languages'>
         <span>I am familar with these languages:</span>
-        <div>{ aboutData.map(curr => (<img key={curr.image} src={require('../images/headshot.jpg')} alt='headshot.jpg' />)) }</div>
+        <div>{ aboutData.map(curr => (<img key={curr.image} src={require('../images/' + curr.image)} alt={curr.image} />)) }</div>
       </div>
       <a href='https://sf200212345.github.io/resume.pdf' target="_blank" rel="noopener noreferrer">Click to see resume as PDF</a>
     </div>

@@ -8,7 +8,7 @@ const ProjectsPopup = ({ info }) => {
   return (
     <div>
         <div className='thumbnail' onClick={() => setClicked(true)} onMouseOver={() => setHovered(true)} onMouseOut={() => setHovered(false)}>
-            <img src={require('../images/headshot.jpg')} alt='headshot.jpg' />
+            <img src={require('../images/' + info.thumbnail )} alt={info.thumbnail} />
             { isHovered ? (<div className='dark-hover'>
                 <h4>{info.title}</h4>
                 <span>{info.for}</span>
@@ -20,7 +20,7 @@ const ProjectsPopup = ({ info }) => {
                 <OutsideClickHandler onOutsideClick={() => setClicked(false)}>
                     <div className='popup'>
                         <button className='exit-btn' onClick={() => setClicked(false)}><i className="fa-solid fa-x"></i></button>
-                        <div className='img-container'><img src={require('../images/headshot.jpg')} alt='headshot.jpg' /></div>
+                        <div className='img-container'><img src={require('../images/' + info.mainImage)} alt={info.mainImage} /></div>
                         <div className='text-container'>
                             <h3>{info.title}</h3><span className='date'>{info.date}</span><br />
                             <span className='italic'>{info.for}</span>
